@@ -1,0 +1,187 @@
+@charset "utf-8";
+
+/*뷰보드 공통 시작*/
+.view_bo_con {font-size:15px; margin-top: 30px; line-height:180%;}
+.view_bo_con p {margin-bottom:20px;}
+.part_margin{margin-bottom:20px;}
+/*img{max-width:100% !important;}*/
+
+/*컨텐츠 소제목*/
+.second_hd{font-size:25px; font-weight:600; color:#1d1d1d; margin-bottom:20px;}
+
+.middle_hd{font-size:22px; font-weight:600; color:#444444; background:url("/theme/basic/img/f_icon.png") no-repeat 0px 8px; padding:0px 0 13px 20px; margin-top:50px;}
+.middle_hd:first-child {margin-top:0px;}
+
+.middle_hd1{font-size:15px; text-indent:10px; margin-bottom:5px;}
+.middle_hd1:after {content: ''; position: absolute; left: 0px; margin-top: 11px; width: 5px; height: 5px; background: #17a3c2; border-radius:50%;}
+.middle_hd2{font-size:15px; font-weight:600; text-indent:10px; margin-bottom:5px;}
+.middle_hd2:after {content: ''; position: absolute; left: 20px; margin-top: 11px; width: 5px; height: 5px; background: #17a3c2; border-radius:50%;}
+
+
+.middle_con{padding: 0px 0 5px 19px; font-size:15px; }
+.middle_con ul li:before {content: ''; position: absolute; left: 25px; margin-top: 7px; width: 5px; height: 5px; background: #17a3c2;}
+.middle_con_13px{font-size:13px;}
+
+.color_sky{color:#68b9c7;}
+
+.con_box{padding:0 20px;}
+.con_img img{text-align:center;}
+.con_btn{background:#448ccb; color:#fff; display:inline-block; padding:10px; border-radius:10px; text-align:center;}
+.con_btn a{color:#fff;}
+
+.con_btn1{background:#448ccb; color:#fff; display:inline-block; padding:0px 10px; border-radius:5px; text-align:center;}
+.con_btn1 a{color:#fff;}
+
+.con_img_s{border: 1px solid #dbdbdb; display: inline-block; box-shadow: 5px 5px 10px #EAEAEa;}
+.imgbox{width:100%; overflow:hidden;}
+.con_img_m{/*border: 5px solid #3dbddf;*/ border-radius: 10px; overflow: hidden;}
+
+
+/* 불릿기호 있음 */
+.bul_icon > ul > li {background: url(/theme/basic/img/bul.png) no-repeat left center; text-indent: 15px; margin: 0px 0px 0px 20px;}
+.bul_icon > ul > li:first-child {margin-top:5px;}
+
+
+/*테이블처럼*/
+.t_r{display:table-row;}
+.t_c{display:table-cell;}
+
+/*진짜테이블*/
+.con_t {border-spacing: 0px; border-collapse: collapse; text-align:center; width:100%;}
+.con_t caption{position:absolute; top:-5000px; left:0; text-indent:-99999px;}
+.con_t th{background:#fafafa; border:1px solid #ddd; border-top:2px solid #40aecb;  padding:15px;}
+.con_t td{border:1px solid #ddd; text-align:center; background:#fff; padding:15px;}
+
+/*다운로드버튼*/
+.down_btn {background: #EE6A00; color: #fff; padding: 5px 0px; font-size: 14px; font-weight: 600; text-align: center; border-radius: 5px;}
+.down_btn1{background: #EE6A00; color: #fff; padding: 5px 0px; font-size: 14px; font-weight: 600; text-align: center; border-radius: 5px; display: inline-block;}
+/* alt hidden */
+.alt_hide {overflow: hidden; width: 0px; height: 0px;}
+
+
+
+/*뷰보드 공통 끝*/
+
+
+
+/*이용약관*/
+.level1_1{font-size:20px; font-weight:600; margin-top:40px; margin-bottom:30px;}
+.level1_1:first-child{margin-top:0px;}
+.level1_2{font-size:16px; font-weight:600; margin-top:20px; margin-bottom:10px;}
+.level1_3{text-indent:-18px; padding-left:18px; margin-bottom:5px;}
+.level1_4{text-indent:-18px; padding-left:28px;  margin-bottom:5px;}
+
+/*개인정보처리방침*/
+.level2_1{font-size:16px; font-weight:600; margin-top:30px; margin-bottom:10px;}
+.level2_1:first-child{margin-top:0px;}
+.level2_2{text-indent: -19px; padding-left: 19px;font-weight:600; margin-top:10px; margin-bottom:5px;}
+.level2_2_1{font-weight:600; margin-top:10px; margin-bottom:5px;}
+.level2_3{text-indent:-18px; padding-left:18px; margin-top:10px; margin-bottom:5px;}
+.level2_4{text-indent:-18px; padding-left:28px;  margin-bottom:5px;}
+
+
+
+/* 연구소소개 */
+/*
+.b01 .mv_boxwrap{text-align:center; overflow:hidden; }
+.m_box, .v_box{width:48.8%; height:220px; border-radius:10px; float:left;}
+.mv_boxwrap:after{content:''; clear:both;}
+.m_box{border:7px solid #f49ac1; background:#da6c9c;}
+.v_box{border:7px solid #acd373; background:#7da149; margin-left:20px;}
+.msbox_tit{padding:17px 0; font-weight:bold; font-size:30px; line-height:120%; background:#fff; border-radius:5px 5px 0 0;}
+.msbox_tit span{display:block; font-size:20px;}
+.m_box .msbox_tit span {color:#f49ac1;}
+.v_box .msbox_tit span {color:#acd373}
+.mv_boxwrap:after{content:''; clear:both;}
+.mbox_con{padding:23px 50px; color:#fff; font-size:18px;}
+.sbox_con{padding:10px 50px; color:#fff; font-size:18px;}
+*/
+.b01 .ms_tit{color:#3d8a99; font-size:22px; font-weight:600; margin-bottom:10px;}
+.b01 .ms_con{margin-bottom:30px; color:#65b0b7; font-size:17px; font-weight:600;}
+.b01 .mv_boxwrap{overflow:hidden;}
+.b01 .mv_box1, .b01 .mv_box2, .b01 .mv_box3{border:4px solid #73c3cb; padding:30px 20px; width:266px; height:160px; float:left; margin-left:3%; font-size:16px;}
+.b01 .mv_box1{border-radius:20px 20px 0 20px; margin-left:0;}
+.b01 .mv_box2{border-radius:20px 0 20px 0;}
+.b01 .mv_box3{border-radius:0 20px 20px 20px;}
+.b01 .mv_box1 span, .b01 .mv_box2 span, .b01 .mv_box3 span{display:block;}
+.b01 .mv_tit{color:#3d8a99; font-size:22px; font-weight:600; margin-bottom:15px;}
+.b01 .hexagon{padding:0 20px;}
+.b01 .hexagon img{width:50px;}
+.b01 .hexagon div{padding:15px 0;}
+.b01 .color_sky{margin-left:10px;}
+.b01 .hexa_txt{font-size:20px; vertical-align:-2px; margin-left:20px;}
+.b01 .con_img_s{border: 1px solid #dbdbdb; display: inline-block; box-shadow: 5px 5px 10px #EAEAEa;}
+.b01 .con_img{display:inline-block;}
+.b01 .con_btn{width:150px;}
+.b01 .f_l{float:left;}
+.b01 .con_img_m{width:32%; float:left; margin-left:2%;}
+.b01 .con_img_m:first-child{margin-left:0;}
+.b01 .con_img_m img{max-width:100%;}
+.b01 .award span{display:inline-block;}
+.b01 .award span:first-child{margin-right:20px;}
+.b01 .award span:nth-child(2){vertical-align:middle;}
+.b01 .part_margin1{margin-bottom:20px; text-align: justify; word-break: break-all;}
+
+
+/* 함께하는사람들 */
+.b02 .con_t th{width:150px;}
+.b02 .con_t tr:first-child > td {border-top:2px solid #40aecb}
+.b02 .con_t td:first-child{width:150px;}
+.b02 .con_t .td1{width:150px;}
+
+/* 대화형인권교육활동 */
+.b11 .second_hd{margin-bottom:30px; padding-bottom:20px; border-bottom:2px solid #73c3ca;}
+.b11 .g_box{}
+.b11 .g_box > div{padding:20px 0px 20px 60px; border-bottom:1px solid #e1e1e1;}
+.b11 .g_box > div:first-child{padding-top:0;}
+.b11 .g_box > div:nth-child(2){background:#fafafa;}
+.b11 .g_box .g_boxx{display:inline-block; margin-left:50px; vertical-align:middle; width: 560px; word-break: break-all;}
+.b11 .g_box .g_boxx span:first-child{font-size:25px; font-weight:bold; margin-right:40px; display:block; margin-bottom:10px;}
+.b11 .g_box .g_boxx span:nth-child(2){color:#9b9999}
+.b11 .imgbox{width:100%;}
+.b11 .con_img_m{width:49%; float:left; margin-left:2%;}
+.b11 .con_img_m:first-child{margin-left:0;}
+.b11 .con_img_m img{max-width:100%;}
+.b11 .part_margin1{margin-bottom:20px; text-align: justify; word-break: break-all;}
+
+
+/* 방관자개입훈련 */
+.b12 .con_img_m{width:49%; float:left; margin-left:2%;}
+.b12 .con_img_m:first-child{margin-left:0;}
+.b12 .con_img_m img{max-width:100%;}
+.b12 .part_margin1{margin-bottom:20px; text-align: justify; word-break: break-all;}
+
+
+/* 다양성옹호활동 */
+.b13 .head_wrap{width:100%; overflow:hidden;}
+.b13 .head_wrap:after{content:''; clear:both;}
+.b13 .head_tab{}
+.b13 .head_tab li{border:1px solid #ccc; border-radius:10px; padding:10px 3px; float:left; margin-left:5px; background: #F7F7F7;}
+.b13 .head_tab li:first-child{margin-left:0;}
+.b13 .head_tab li a{display:block; color:#888;}
+.b13 .head_tab li:hover{border:1px solid #40aecb; background:#40aecb;}
+.b13 .head_tab li:hover a{color:#fff;}
+.b13 .order{margin-top:20px;}
+.b13 .order span{display:block;}
+.b13 .con_img_m{width:30%; float:right; margin-left:20px;}
+.b13 .con_img_m img{max-width:100%;}
+.b13 .con_txt_m{width:67%; word-break: break-word; text-align: justify;}
+
+/* 다양성연구활동 */
+.b14 .con_img_m{width:32%; float:left; margin-left:2%;}
+.b14 .con_img_m:first-child{margin-left:0;}
+.b14 .con_img_m img{max-width:100%;}
+
+
+/* 교육신청 */
+.b21{}
+.b21_table{width:100%; border-collapse: collapse; border-top:3px solid #40aecb;}
+.b21_table th{border:1px solid #ddd; padding:20px; background:#edf8fb;}
+.b21_table td{border:1px solid #ddd; padding:20px;}
+
+
+/* 교육안내 */
+.b23 .con_img_m{width:32%; float:left; margin-left:2%;}
+.b23 .con_img_m:first-child{margin-left:0;}
+.b23 .con_img_m img{max-width:100%;}
+.b23 .middle_hd2 span{font-weight:normal;}
