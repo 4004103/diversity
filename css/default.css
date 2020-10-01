@@ -1289,16 +1289,11 @@ ul.tabs li.current a {
 .sub-menu a:hover {
   color: #fff;
   font-weight: bold;
-  background: url("../img/as_arrow.png") no-repeat 90% center #17a3c2;
 }
 
 .sub-menu_on {
   color: #fff;
   font-weight: bold;
-}
-
-.sub-menu__item_on {
-  background: url("../img/as_arrow.png") no-repeat 90% 19px #17a3c2;
 }
 
 
